@@ -5,7 +5,7 @@ base_dir = '/Your/Path'
 items_to_show = 5
 
 # How often would you like to update the display?
-refreshFrequency: 10000
+refreshFrequency: 120000
 
 # Don't touch this unless you know what's going on
 command: "cd #{base_dir} && git log -n #{items_to_show} --all --format=\"%d - %h - %an - %s - %ar\""
