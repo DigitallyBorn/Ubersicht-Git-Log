@@ -1,8 +1,8 @@
 # Set your repository's local folder here
-base_dir = '/Users/username/Development/project-folder'
+base_dir = '/Your/Path'
 
 # How many commits would you like to see?
-items_to_show = 4
+items_to_show = 5
 
 # How often would you like to update the display?
 refreshFrequency: '2m'
