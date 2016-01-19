@@ -65,12 +65,18 @@ renderItem: (data) ->
   </div>
   """
 
-update: (output, widget) ->
+afterRender: (widget) ->
   # this is a bit of a hack until jQuery UI is included natively
-  $.getScript("https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js", () ->
-    $(widget).draggable()
-    return
-  )
+  $.ajax({
+    url: "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js",
+    cache: true,
+    dataType: "script",
+    success: ->
+      $(widget).draggable()
+      return
+  })
+
+update: (output, widget) ->
   lines = output.trim().split('\n')
   ele = $(widget).find('.git-log')
   ele.empty()
