@@ -13,10 +13,10 @@
 * Color indicators for recent commits.
 
 ## SETUP
-1. Set your repository's local folder on line 8.
-2. Set the number of commits to show on line 11.
-3. Set the refresh frequency on line 14.
-4. Configure the Project Variables starting on line 19:
+1. Set your repository's local folder on line 2.
+2. Set the number of commits to show on line 5.
+3. Set the refresh frequency on line 8.
+4. Configure the Project Variables starting on line 13:
 
 Variable|Description|Example/Default
 :---:|:---|:---:
