@@ -42,8 +42,8 @@ render: (output) ->
 
 renderItem: (data) ->
   fields = data.split(' -- ')
-  if(fields[0].length > 34)
-    branch = fields[0].substring(0,34) + '...' # limit string length to container
+  if(fields[0].length > 40)
+    branch = fields[0].substring(0,40) + '...' # limit string length to container
   else
     branch = fields[0]
   hash = fields[1]
@@ -98,7 +98,7 @@ update: (output, widget) ->
         $(this).closest('.row').addClass('recent oldest')
 
 style: """
-  font-family: Roboto
+  font-family: Helvetica Neue
   font-size: 12px
   font-weight: 300
   line-height: 18px
