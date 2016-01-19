@@ -2,7 +2,7 @@
 
 > Made for [Übersicht](http://tracesof.net/uebersicht/)
 
-Übersicht widget to display recent commits to your selected git repository. Widget allows you to select the branch of your project to display the log from (e.g. in case your team normally commit to a 'dev' branch before master).
+Übersicht widget to display recent commits from your selected git repository. Widget allows you to select the branch of your project to display the log from (e.g. in case your team normally commit to a 'dev' branch before master).
 
 ![Übersicht git log](screenshot.png)
 
