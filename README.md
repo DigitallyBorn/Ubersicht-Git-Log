@@ -2,6 +2,11 @@
 
 > Made for [Übersicht](http://tracesof.net/uebersicht/)
 
+[![GitHub release](https://img.shields.io/github/release/DigitallyBorn/Ubersicht-Git-Log.svg?maxAge=3600)](https://github.com/DigitallyBorn/Ubersicht-Git-Log/archive/master.zip) 
+[![GitHub commits](https://img.shields.io/github/commits-since/DigitallyBorn/Ubersicht-Git-Log/v2.0.1.svg?maxAge=3600)](https://github.com/DigitallyBorn/Ubersicht-Git-Log/compare/v2.0.1...master) 
+[![GitHub issues](https://img.shields.io/github/issues/DigitallyBorn/Ubersicht-Git-Log.svg?maxAge=3600)](https://github.com/DigitallyBorn/Ubersicht-Git-Log/issues) 
+[![license](https://img.shields.io/github/license/DigitallyBorn/Ubersicht-Git-Log.svg?maxAge=3600)](https://raw.githubusercontent.com/DigitallyBorn/Ubersicht-Git-Log/master/LICENSE)
+
 Übersicht widget to display recent commits from your selected git repository. Widget allows you to select the branch of your project to display the log from (e.g. in case your team normally commit to a 'dev' branch before master).
 
 ![Übersicht git log](screenshot.png)
